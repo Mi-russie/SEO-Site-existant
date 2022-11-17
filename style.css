@@ -368,7 +368,7 @@ body {
     position : fixed;
     bottom : 20px;
     right : 20px;
-    opacity : 0;
+    opacity : 1;
     z-index : 500;
     transition : all 0.3s ease-in-out;
     }
@@ -475,6 +475,15 @@ body {
     font-family : "helvetica";
     font-weight : 700;
     color : #575757 !important ;
+    }
+    .fa-chevron-up{
+        color: black;
+    }
+    .fa-chevron-up:hover{
+        color: white;
+    }
+    .fa-chevron-up::before{
+        content: "\f176";
     }
     a:hover {
     color : black;
